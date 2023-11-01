@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "build": "webpack --config config/webpack.config.build.js",
-    "lint": "eslint src/DateTime.js test/ && echo 'Linting OK! 💪'"    
+    "lint": "eslint src/DateTime.js test/ && echo 'Linting OK! 💪'"
   },
   "keywords": [
     "react",
