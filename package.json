@@ -16,8 +16,7 @@
   ],
   "scripts": {
     "build": "webpack --config config/webpack.config.build.js",
-    "lint": "eslint src/DateTime.js test/ && echo 'Linting OK! 💪'",
-    
+    "lint": "eslint src/DateTime.js test/ && echo 'Linting OK! 💪'"    
   },
   "keywords": [
     "react",
@@ -110,9 +109,7 @@
     "prop-types": "^15.5.7"
   },
   "pre-commit": [
-    "notify-pre-commit-hook",
-    "lint",
-    "test:all"
+    "lint"
   ],
   "jest": {
     "roots": [
